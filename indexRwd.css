@@ -1,0 +1,150 @@
+/* Mobile First Approach RWD */
+@media (min-width: 200px) and (max-width: 749px){
+    body{
+        width: 116vw !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainContainer{
+        /* background-color: #00800082; */
+        width: auto !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    .shopifyContainer > h2{
+        color:black;
+        font-weight: bold;
+    }
+    .imgContainer{
+        display: none !important;
+    }
+    .imgContainer > img{
+        width: 42vw !important;
+        position: absolute !important;
+        top: 22vh !important;
+        left: 12vw;
+    }
+    .shopifyContainer{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        margin-top: 4vh;
+    }
+    .section2{
+        display: flex !important;
+        flex-flow: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-top: 12vh !important;
+    }
+    .card{
+        min-width: 302px !important;
+        max-width: 90% !important;
+        max-height: 221px !important;
+        margin-bottom: 3vh !important;
+    }
+    .cardsContainer{
+        max-width: 100% !important;
+        display: flex !important;
+        flex-flow: row wrap;
+        padding-left: 6% !important;
+        padding-right: 0px !important;
+    }
+    .logoContainer{
+        flex-flow: row wrap !important;
+        grid-gap: 15% !important;
+        height: auto !important;
+        max-height: auto !important;
+    }
+    .logo{
+        margin:4% 0px !important;
+    }
+}
+
+/* from 768px to 992px */
+@media (min-width: 750px) and (max-width: 1079px){
+    body{
+        width: 116vw !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainContainer{
+        /* background-color: #00800082; */
+        width: auto !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    .shopifyContainer > h2{
+        color:black;
+        font-weight: bold;
+    }
+    .imgContainer{
+        display: none !important;
+    }
+    .imgContainer > img{
+        width: 42vw !important;
+        position: absolute !important;
+        top: 22vh !important;
+        left: 12vw;
+    }
+    .shopifyContainer{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        margin-top: 4vh;
+    }
+    .section2{
+        display: flex !important;
+        flex-flow: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-top: 12vh !important;
+    }
+    .card{
+        min-width: 302px !important;
+        max-width: 90% !important;
+        max-height: 221px !important;
+        margin-bottom: 3vh !important;
+    }
+    .cardsContainer{
+        max-width: 100% !important;
+        display: flex !important;
+        flex-flow: row wrap;
+        padding-left: 6% !important;
+        padding-right: 0px !important;
+    }
+    .logoContainer{
+        width: 100% !important;
+        flex-flow: row wrap !important;
+        grid-gap: 9% !important;
+        height: auto !important;
+        max-height: auto !important;
+    }
+    .logo{
+        margin:4% 0px !important;
+    }
+}
+
+/* From 992px to 1200px */
+@media (min-width: 992px) and (max-width: 1200px){
+    .mainContainer{
+        /* background-color: blue; */
+    }
+}
+
+/* From 1200px to 1400px */
+@media (min-width: 1200px) and (max-width: 1400px){
+    *{
+        margin:0px;
+        padding: 0;
+    }
+    .mainContainer{
+        /* background-color: black; */
+    }
+}
+
+
